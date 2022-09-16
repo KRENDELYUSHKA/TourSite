@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/home/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header-logo">
+            <img src="/images/logo.png" class="header-logo-img" height="45" width="150"> 
+        </a>
+        <nav class="header-nav">
+            <a href="#" class="header-nav-link">Все туры</a>
+            <a href="#" class="header-nav-link">Отзывы</a>
+            <a href="#" class="header-nav-link">Контакты</a>
+            <a href="#" class="header-nav-link">О нас</a>
+        </nav>
+        <div class="header-auth">
+            <a href="index.html" class="header-auth-text" id="open_pop_up_phone">Заказать звонок</a>
+        </div>
+        <div class="pop_up_phone" id="pop_up_phone">
+            <div class="pop_up_phone_container">
+                <div class="pop_up_phone_body" id="pop_up_phone_body">
+                    <p class="pop_up_phone_body_p" id="pop_up_phone_body_p">Заказать звонок</p>
+                    <form method="POST" id="pop_up_phone_body_inputBl">
+                        <input type="text" placeholder="Имя" class="pop_up_phone_body_input" id="pop_up_phone_body_input1">
+                        <input type="tel" placeholder="Телефон" class="pop_up_phone_body_input" id="pop_up_phone_body_input2"  data-tel-input placeholder="Phone">
+                        <button name="go_us" class="pop_up_phone_body_button" id="pop_up_phone_body_button">Заказать звонок</button>
+                    </form>
+                    <div class="pop_up_phone_close" id="pop_up_phone_close">&#10006</div>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <h1 class="header-content-h">Открой для себя<br>новый мир</h1>
+            <p class="header-content-p">Авторские туры по интересным<br>местам от Максима Скворцова</p>
+            <div class="header-content-app">
+                <a href="#" class="header-content-a" id="open_pop_up_app">Оставить заявку</a>
+                <div class="header-content-show" id="open_pop_up_video">
+                    <a href="#" class="header-content-play"><img src="/images/iconPlay.svg" class="header-content-play-img"></a>
+                    <a href="#" class="header-content-video">Смотреть<br>видео-отчет<br>2021-2022</a>
+                </div>
+            </div>
+            <div class="pop_up_app" id="pop_up_app">
+                <div class="pop_up_app_container" id="pop_up_app_container">
+                    <div class="pop_up_app_body" id="pop_up_app_body">
+                        <p class="pop_up_app_body_p" id="pop_up_app_body_p">Оставить заявку</p>
+                        <form method="POST" id="pop_up_app_body_inputBl">
+                            <input type="text" placeholder="Имя" class="pop_up_app_body_input" id="pop_up_app_body_input1">
+                            <input type="tel" placeholder="Телефон" class="pop_up_app_body_input" id="pop_up_app_body_input2" data-tel-input placeholder="Phone">
+                            <button name="go_us" class="pop_up_app_body_button" id="pop_up_app_body_button">Заказать звонок</button>
+                        </form>
+                        <div class="pop_up_app_close" id="pop_up_app_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pop_up_video" id="pop_up_video">
+                <div class="pop_up_video_container">
+                    <div class="pop_up_video_body">
+                        <video src="/video/Исландия 2022.mp4" controls class="pop_up_video_el" id="pop_up_video_el"></video>
+                        <div class="pop_up_video_close" id="pop_up_video_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
+            <script src="/js/pop_up.js"></script>
+            <script src="/js/phone.js"></script>
+            <div class="header-contacts">
+                <p class="header-contactsa-p">Следите за новостями</p>
+                <a href="#" class="header-contacts-a"><img src="/images/ютуб.png" height="40" class="header-contacts-img"></a>
+                <a href="#" class="header-contacts-a"><img src="/images/тг.png" height="40" class="header-contacts-img"></a>
+                <a href="#" class="header-contacts-a"><img src="/images/вк.png" height="40" class="header-contacts-img"></a>
+                <a href="#" class="header-contacts-a"><img src="/images/фб.png" height="40" class="header-contacts-img"></a>
+            </div>
+        </div>
+    </header>
+    <div class="body-content">
+        <div class="body-content-info">
+            <img src="/images/landmannalaugar.jpg" class="body-content-info-img" height="330" width="530">
+            <p class="body-content-info-img-p">Цветные горы<br>Ландманналёйгар</p>
+            <div class="body-content-info-content">
+            <h2 class="body-content-info-content-h2">Посмотрите все<br>направления туров</h2>
+            <p class="body-content-info-content-p">Скалы и горы Исландии – это<br>
+                неотъемлемая часть списка<br>
+                достопримечательностей острова,<br>
+                которые стоит увидеть. 
+                </p>
+                <div class="body-content-info-content-watch">
+                <a href="#" class="body-content-info-content-a">Смотреть все</a>
+                </div>
+            </div>
+        </div>
+        <div class="body-content-form">
+            <div class="body-content-form-img">
+                <img src="/images/imgForm.png" class="body-content-form-img">
+            </div>
+            <div class="body-content-form-text">
+                <h2 class="body-content-form-h2">Оставьте заявку<br>на бесплатную<br>консультацию</h2>
+                <p class="body-content-form-p">Мы перезвоним вам<br>в ближайшее время</p>
+            </div>
+            <div class="body-content-form-block">
+                <input type="text" placeholder="Ваше имя" class="body-content-form-block-el">
+                <input type="text" placeholder="+7 (_ _ _)_ _ _-_ _ _-__" class="body-content-form-block-el" data-tel-input placeholder="Phone">
+                <div class="body-content-form-block-button">
+                    <a href="#" class="body-content-form-block-a">Отправить заявку</a>
+                </div>
+                <p class="body-content-form-block-p">Нажимая на кнопку вы даете согласие<br><p class="body-content-form-block-p-orange">на обработку персональных данных<p></p>
+            </div>
+        </div>
+        
+        <div class="body-content-people">
+            <div class="body-content-people-content">
+                <h2 class="body-content-people-content-h2">Что пишут участники<br>наших путешествий</h2>
+                <p class="body-content-people-content-p">89% участников приходят по<br>
+                    рекомендации друзей. А каждый<br>4-ый путешествует с нами уже<br>более 2 раз!
+                </p>
+                <div class="body-content-people-content-watch">
+                    <a href="#" class="body-content-people-content-a">Читать отзывы</a>
+                </div>
+            </div>
+            <img src="/images/consult.png" class="body-content-people-img" height="330" width="530">
+            <p class="body-content-people-img-p1">Отзыв</p>
+            <p class="body-content-people-img-p2">Светлана Макарова</p>
+            <p class="body-content-people-img-p3">Очевидно, это был лучший<br>отдых в моей жизни!</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-logo">
+            <a href="#"><img src="/images/logo.png" height="50"></a>
+            <p class="footer-logo-text">авторские туры<br>в Исландию</p>
+        </div>
+        <div class="footer-nav">
+            <p class="footer-nav-p">Информация</p>
+            <div class="footer-nav-line1"></div>
+            <nav class="footer-nav-block1">
+                <a href="#" class="footer-nav-block1-a">Все туры</a>
+                <a href="#" class="footer-nav-block1-a">Отзывы</a>
+                <a href="#" class="footer-nav-block1-a">Контакты</a>
+                <a href="#" class="footer-nav-block1-a">О нас</a>
+            </nav>
+        </div>
+        <div class="footer-nav">
+            <p class="footer-nav-p">Штаб-квартира</p>
+            <div class="footer-nav-line2"></div>
+            <div class="footer-nav-block2">
+                <p class="footer-nav-block2-p">г.Москва, 3-я Тверская-Ямская, дом 5, строение 1</p>
+                <p class="footer-nav-block2-p">пн-пт с 10.00 до 19.00</p>
+            </div>
+        </div>
+        <div class="footer-icons">
+            <p class="footer-icons-call">Бесплатный звонок</p>
+            <p class="footer-icons-text">+7(927) 388-39-67</p>
+            <div class="footer-icons-block"> 
+                <a href="#" class="footer-icons-a"><img src="/images/ютуб.png" height="40" class="footer-icons-img"></a>
+                <a href="#" class="footer-icons-a"><img src="/images/тг.png" height="40" class="footer-icons-img"></a>
+                <a href="#" class="footer-icons-a"><img src="/images/вк.png" height="40" class="footer-icons-img"></a>
+                <a href="#" class="footer-icons-a"><img src="/images/фб.png" height="40" class="footer-icons-img"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
